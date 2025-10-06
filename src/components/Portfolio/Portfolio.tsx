@@ -61,7 +61,7 @@ const projects = [
  title: "My Second Portfolio",
  imageSrc: P9,
  tech: ["React", "Tailwind CSS", "Typescript"], 
- demoLink: "https://erinayo.vercel.app/",
+ demoLink: "https://okusanya.vercel.app/",
 },
 ];
 
