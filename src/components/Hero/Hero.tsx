@@ -36,16 +36,16 @@ const HeroSection = () => {
 
         
         <div className="flex gap-6 mt-8 ">
-          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
+          <a href="https://twitter.com/datbossbaby" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
             <FaTwitter />
           </a>
-          <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
+          <a href="https://github.com/pamilerin17" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
+          <a href="www.linkedin.com/in/pamilerin-erinayo-8705582b8" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
             <FaLinkedin />
           </a>
-          <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
+          <a href="https://wa.me/+2348123903283" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
             <FaWhatsapp />
           </a>
         </div>
