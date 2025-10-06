@@ -49,7 +49,7 @@ const projects = [
  title: "Photogallery",
  imageSrc: P7,
  tech: ["React", "Tailwind CSS", "Typescript", "Firebase"], 
- demoLink: "https://erinayo.vercel.app/",
+ demoLink: "https://tpl-two.vercel.app/",
 },
 {
  title: "My First Portfolio",
