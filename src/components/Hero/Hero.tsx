@@ -42,7 +42,7 @@ const HeroSection = () => {
           <a href="https://github.com/pamilerin17" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
             <FaGithub />
           </a>
-          <a href="www.linkedin.com/in/pamilerin-erinayo-8705582b8" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
+          <a href="https://www.linkedin.com/in/pamilerin-erinayo-8705582b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
             <FaLinkedin />
           </a>
           <a href="https://wa.me/+2348123903283" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-600 text-2xl transition">
