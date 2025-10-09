@@ -48,7 +48,7 @@ const BioSection = () => {
         {/* Buttons */}
         <div className="flex gap-4">
           <a href="https://drive.google.com/file/d/1fpRfHHIKRXNu2e9uIENwXqJCNKDIxxES/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
+            <button className="cursor-pointer bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
               Download CV
             </button>
           </a>
