@@ -44,7 +44,8 @@ const ServicesSection = () => {
             title: 'Git Control System',
             description: 'With the use of Git and GitHub, I can manage your websites, domains and make necessary improvements when the time comes.',
             icon: 'target'
-          }
+          },
+
         ];
         
         setServices(mockData);
@@ -124,7 +125,7 @@ const ServicesSection = () => {
     <div className="min-h-screen bg-gray-50 py-20 px-5">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-center text-5xl md:text-6xl font-normal text-gray-900 mb-20 tracking-tight">
-          Services
+         My <span className='text-blue-500'>Services</span> 
         </h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

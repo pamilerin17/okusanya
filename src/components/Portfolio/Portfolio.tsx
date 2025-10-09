@@ -68,7 +68,7 @@ const projects = [
 const PortfolioSection = () => {
  return (
    <section id="portfolio" className="container mx-auto px-6 py-16">
-     <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">My Portfolio</h2>
+     <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">My <span className='text-blue-500'>Portfolio</span> </h2>
      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
        {projects.map((proj, idx) => (
          <div

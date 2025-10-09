@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const ContactForm = () => {
-  const [status, setStatus] = useState("idle"); // idle | loading | success | error
+  const [status, setStatus] = useState("idle"); 
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -30,7 +30,7 @@ const ContactForm = () => {
 
   return (
     <section id="contact" className="container mx-auto px-6 py-16 max-w-xl">
-      <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center">Contact Me</h2>
+      <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center">Contact <span className="text-blue-500">Me!</span> </h2>
 
       <form
         onSubmit={handleSubmit}
