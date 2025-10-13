@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+
+body {
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden;
+ box-sizing: border-box;
+ outline: none;
+ border: none;
+ text-decoration: none;
+ list-style: none;
+ transition: all .3s linear;
+ font-family: "Poppins", sans-serif;
+ scroll-behavior: smooth;
+}

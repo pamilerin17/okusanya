@@ -1,5 +1,5 @@
-import  { useState, useEffect } from 'react';
-import { Monitor, Search, Target } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Monitor, Search, Target, PlugZap } from 'lucide-react';
 
 interface Service {
   id: number;
@@ -18,40 +18,46 @@ const ServicesSection = () => {
     const fetchServices = async () => {
       try {
         setLoading(true);
-        
+
         // Simulating API delay
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        
-        // Mock API response - replace with actual fetch call
-        // const response = await fetch('https://your-api.com/services');
-        // const data = await response.json();
-        
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+
         const mockData: Service[] = [
           {
             id: 1,
             title: 'Development',
-            description: 'I make use of HTML, CSS, SCSS and JavaScript to make interactive and functional frontend framework for businesses or other purposes.',
-            icon: 'monitor'
+            description:
+              'I make use of HTML, CSS, SCSS and JavaScript to make interactive and functional frontend framework for businesses or other purposes.',
+            icon: 'monitor',
           },
           {
             id: 2,
             title: 'Design',
-            description: 'I create visually stunning and user-friendly designs that enhance user experience and bring your brand vision to life with modern aesthetics.',
-            icon: 'search'
+            description:
+              'I create visually stunning and user-friendly designs that enhance user experience and bring your brand vision to life with modern aesthetics.',
+            icon: 'search',
           },
           {
             id: 3,
             title: 'Git Control System',
-            description: 'With the use of Git and GitHub, I can manage your websites, domains and make necessary improvements when the time comes.',
-            icon: 'target'
+            description:
+              'With the use of Git and GitHub, I can manage your websites, domains and make necessary improvements when the time comes.',
+            icon: 'target',
           },
-
+          {
+            id: 4,
+            title: 'API Integration',
+            description:
+              'I integrate RESTful and third-party APIs to connect applications with external services, automate workflows, and enhance functionality.',
+            icon: 'plug',
+          },
         ];
-        
+
         setServices(mockData);
         setLoading(false);
       } catch (err: unknown) {
-        const errorMessage = err instanceof Error ? err.message : 'Failed to load services';
+        const errorMessage =
+          err instanceof Error ? err.message : 'Failed to load services';
         setError(errorMessage);
         setLoading(false);
       }
@@ -63,9 +69,9 @@ const ServicesSection = () => {
   const getIcon = (iconName: string) => {
     const iconProps = {
       size: 64,
-      className: "text-blue-600 stroke-[1.5]"
+      className: 'text-blue-600 stroke-[1.5]',
     };
-    
+
     switch (iconName) {
       case 'monitor':
         return <Monitor {...iconProps} />;
@@ -73,6 +79,8 @@ const ServicesSection = () => {
         return <Search {...iconProps} />;
       case 'target':
         return <Target {...iconProps} />;
+      case 'plug':
+        return <PlugZap {...iconProps} />;
       default:
         return <Monitor {...iconProps} />;
     }
@@ -87,7 +95,10 @@ const ServicesSection = () => {
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[1, 2, 3].map((n) => (
-              <div key={n} className="bg-white border border-gray-200 rounded-xl p-16 animate-pulse">
+              <div
+                key={n}
+                className="bg-white border border-gray-200 rounded-xl p-16 animate-pulse"
+              >
                 <div className="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-8"></div>
                 <div className="h-6 bg-gray-200 rounded w-2/3 mx-auto mb-5"></div>
                 <div className="space-y-3">
@@ -109,7 +120,7 @@ const ServicesSection = () => {
         <div className="max-w-7xl mx-auto">
           <div className="bg-red-50 border border-red-200 rounded-xl p-8 text-center">
             <p className="text-red-600 text-lg">{error}</p>
-            <button 
+            <button
               onClick={() => window.location.reload()}
               className="mt-4 px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
             >
@@ -125,9 +136,9 @@ const ServicesSection = () => {
     <div className="min-h-screen bg-gray-50 py-20 px-5">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-center text-5xl md:text-6xl font-normal text-gray-900 mb-20 tracking-tight">
-         My <span className='text-blue-500'>Services</span> 
+          My <span className="text-blue-500">Services</span>
         </h1>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div
@@ -137,11 +148,11 @@ const ServicesSection = () => {
               <div className="w-20 h-20 mx-auto mb-8 transition-transform duration-300 group-hover:scale-110">
                 {getIcon(service.icon)}
               </div>
-              
+
               <h2 className="text-2xl font-medium text-gray-900 mb-5">
                 {service.title}
               </h2>
-              
+
               <p className="text-base leading-relaxed text-gray-400 font-light">
                 {service.description}
               </p>
