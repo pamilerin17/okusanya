@@ -9,7 +9,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Pagenotfound from "./components/Pagenotfound/pagenotfound"
+import Pagenotfound from "./components/Pagenotfound/Pagenotfound"
 
 const AppContent = () => {
   const location = useLocation();

@@ -7,6 +7,7 @@ import P6 from '../../assets/Screenshot 2025-04-28 192102.png'
 import P7 from '../../assets/Screenshot 2025-06-13 214900.png'
 import P8 from '../../assets/Screenshot 2025-04-28 192132.png'
 import P9 from '../../assets/last.png'
+import P10 from '../../assets/Screenshot 2026-01-09 120741.png'
 const projects = [
  {
   title:'Furniture Website',
@@ -62,6 +63,12 @@ const projects = [
  imageSrc: P9,
  tech: ["React", "Tailwind CSS", "Typescript"], 
  demoLink: "https://okusanya.vercel.app/",
+},
+{
+ title: "An E-commerce headset website",
+ imageSrc: P10,
+ tech: ["NEXTJS", "Tailwind CSS", "Typescript", "convex"], 
+ demoLink: "https://audiophile-five-sigma.vercel.app/",
 },
 ];
 
