@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="w-full flex justify-center fixed top-0 left-0 z-50 bg-white/80 backdrop-blur-md py-4">
+    <nav className="w-full flex justify-center fixed top-0 left-0 z-50  py-4">
       <div className="flex space-x-8 shadow-md rounded-full px-8 py-3 bg-white/80">
         {menuItems.map((item) => (
           <button
