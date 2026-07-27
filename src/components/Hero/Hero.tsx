@@ -31,7 +31,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="mt-6 text-gray-600 text-lg leading-relaxed">
-          I get genuinely excited about turning ideas into real, user-ready products from scratch — there’s something special about watching concepts come to life. 🔧 But I’m just as comfortable jumping into an existing codebase and making it even better. Whether it’s fixing bugs, refactoring messy bits, or shipping new features, I’m all in for the challenge. 🚀
+          I get genuinely excited about turning ideas into real, user-ready products from scratch there’s something special about watching concepts come to life. 🔧 But I’m just as comfortable jumping into an existing codebase and making it even better. Whether it’s fixing bugs, refactoring messy bits, or shipping new features, I’m all in for the challenge. 🚀
         </p>
 
         
