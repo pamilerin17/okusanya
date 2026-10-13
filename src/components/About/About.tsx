@@ -150,7 +150,7 @@ const BioSection = () => {
         {/* Buttons */}
         <div className="flex gap-4">
           <a
-            href="https://drive.google.com/file/d/17HrzODeel-YkE9POYdwcmyx7xZDBy7ot/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Qj64NCJUAvocOCKjFi3NWqjP6KmdSnzL/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
