@@ -52,7 +52,7 @@ const projects = [
   {
     title: 'Photogallery',
     imageSrc: P7,
-    tech: ['React', 'Tailwind CSS', 'Typescript', 'Firebase', 'cloudinary'],
+    tech: ['React', 'Tailwind CSS', 'Typescript', 'Firebase', 'Cloudinary'],
     demoLink: 'https://tpl-two.vercel.app/',
   },
   {
@@ -76,7 +76,7 @@ const projects = [
   {
     title: 'An E-commerce Pet Store',
     imageSrc: P11,
-    tech: ['NEXTJS', 'TailwindCSS', 'Firebase', 'Typescript','cloudinary'],
+    tech: ['NEXTJS', 'TailwindCSS', 'Firebase', 'Typescript','Cloudinary'],
     demoLink: 'https://pawstore-nu.vercel.app/',
   },
   {
