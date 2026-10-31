@@ -88,7 +88,7 @@ const projects = [
   },
   {
     title: 'Food Delivery Webapp',
-    imagesrc: P13,
+    imageSrc: P13,
     tech: ['NEXTJS', 'TailwindCSS', 'Typescript', 'Stripe', 'Firebase'],
     demoLink: 'https://fooddeliverywebapp.vercel.app/login',
   },
