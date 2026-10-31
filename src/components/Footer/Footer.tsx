@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
       <button
         onClick={scrollToTop}
         aria-label="Back to top"
-        className={`fixed right-6 bottom-6 z-50 flex items-center justify-center w-12 h-12 rounded-full shadow-lg transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-blue-600
+        className={`fixed right-6 bottom-6 z-50 flex items-center justify-center w-12 h-12 rounded-full shadow-lg transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-blue-600 cursor-pointer
           ${visible ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0 pointer-events-none"}`}
         title="Back to top"
       >

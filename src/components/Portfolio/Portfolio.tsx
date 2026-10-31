@@ -228,7 +228,7 @@ const PortfolioSection = () => {
                     href={proj.demoLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white text-blue-600 px-4 py-2 rounded-full"
+                    className="bg-white text-blue-600 px-4 py-2 rounded-full cursor-pointer"
                   >
                     Demo
                   </a>

@@ -72,7 +72,7 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={status === "loading"}
-          className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition w-full disabled:opacity-50"
+          className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition w-full disabled:opacity-50 cursor-pointer"
         >
           {status === "loading" ? "Sending..." : "Send Message"}
         </button>
