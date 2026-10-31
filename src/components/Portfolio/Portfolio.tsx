@@ -11,6 +11,7 @@ import P9 from '../../assets/last.png'
 import P10 from '../../assets/Screenshot 2026-01-09 120741.png'
 import P11 from '../../assets/Screenshot 2026-05-04 103538.png'
 import P12 from '../../assets/Screenshot 2026-10-17 135459.png'
+import P13 from '../../assets/Screenshot 2026-10-31 135107.png'
 
 const projects = [
   {
@@ -85,6 +86,12 @@ const projects = [
     tech: ['NEXTJS', 'TailwindCSS', 'Typescript', 'Api'],
     demoLink: 'https://world-dashboard-orpin.vercel.app/',
   },
+  {
+    title: 'Food Delivery Webapp',
+    imagesrc: P13,
+    tech: ['NEXTJS', 'TailwindCSS', 'Typescript', 'Stripe', 'Firebase'],
+    demoLink: 'https://fooddeliverywebapp.vercel.app/login',
+  }
 ]
 
 /* ---------- scroll-in animation ---------- */
