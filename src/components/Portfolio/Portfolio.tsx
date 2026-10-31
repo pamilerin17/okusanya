@@ -91,7 +91,7 @@ const projects = [
     imagesrc: P13,
     tech: ['NEXTJS', 'TailwindCSS', 'Typescript', 'Stripe', 'Firebase'],
     demoLink: 'https://fooddeliverywebapp.vercel.app/login',
-  }
+  },
 ]
 
 /* ---------- scroll-in animation ---------- */
